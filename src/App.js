@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import DisplayMain from "./components/DisplayMain";
+import HandleCardByCtx from "./components/cardContex";
+import  CardHandleContext  from "./components/CardHandleContext";
+// import handleModel from "./components/CardHandleContext";
+// import { useContext } from "react";
+import Card from "./components/card";
+import Signup from "./components/CheckOut_form";
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  // let ModelProgress = useContext(handleModel);
+
+  
+    return (
+      <div className="App">
+        <CardHandleContext>
+          <HandleCardByCtx>
+            <Header />
+            <DisplayMain />
+           <Card/>
+           <Signup/>
+          </HandleCardByCtx>
+        </CardHandleContext>
+      </div>
+    );
 }
 
 export default App;
