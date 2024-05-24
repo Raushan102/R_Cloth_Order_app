@@ -5,7 +5,7 @@ import { handleModel } from "./CardHandleContext";
 import { ctxContext } from "./cardContex";
 
 export default function Signup() {
-  de 
+
   const [validPassword, set_validPassword] = useState(false);
 
   let modelData = useContext(handleModel);
@@ -17,6 +17,12 @@ export default function Signup() {
     const fd = new FormData(event.target);
 
     const data = Object.fromEntries(fd.entries());
+
+    
+   fetch(
+     "https://first-bd2f8-default-rtdb.europe-west1.firebasedatabase.app/ClothCard.json",
+     { method: "PUT", body: JSON.stringify(data) }
+   );
 
     if (
       data.password.length >= 6 &&

@@ -13,7 +13,7 @@ import Signup from "./components/CheckOut_form";
 
 function App() {
 
-  // let ModelProgress = useContext(handleModel);
+  
 
   
     return (
