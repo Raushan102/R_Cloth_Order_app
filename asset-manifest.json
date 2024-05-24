@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/R_Cloth_Order_app/static/css/main.ca8691a8.css",
-    "main.js": "/R_Cloth_Order_app/static/js/main.3eb921f9.js",
+    "main.js": "/R_Cloth_Order_app/static/js/main.ffdd5171.js",
     "static/js/453.b91b1875.chunk.js": "/R_Cloth_Order_app/static/js/453.b91b1875.chunk.js",
     "static/media/logo.png": "/R_Cloth_Order_app/static/media/logo.29d7c2141a18f6d4ff0f.png",
     "static/media/denim-pioneer.jpg": "/R_Cloth_Order_app/static/media/denim-pioneer.e445397093aa72227316.jpg",
@@ -13,11 +13,11 @@
     "static/media/moonlight-dress.jpg": "/R_Cloth_Order_app/static/media/moonlight-dress.8c28fd828d511b335a93.jpg",
     "index.html": "/R_Cloth_Order_app/index.html",
     "main.ca8691a8.css.map": "/R_Cloth_Order_app/static/css/main.ca8691a8.css.map",
-    "main.3eb921f9.js.map": "/R_Cloth_Order_app/static/js/main.3eb921f9.js.map",
+    "main.ffdd5171.js.map": "/R_Cloth_Order_app/static/js/main.ffdd5171.js.map",
     "453.b91b1875.chunk.js.map": "/R_Cloth_Order_app/static/js/453.b91b1875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca8691a8.css",
-    "static/js/main.3eb921f9.js"
+    "static/js/main.ffdd5171.js"
   ]
 }
